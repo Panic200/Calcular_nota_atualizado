@@ -1,0 +1,16 @@
+while True:
+    nota1 = int(input ('Coloque a nota: ' ))
+    nota2 = int (input('Coloque a nota: ' ))
+    nota3 = int (input('Coloque a nota: ' ))
+    nota4 = int (input('Coloque a nota: ' ))
+    valor = int (nota1 + nota2 + nota3 + nota4 ) /4
+    if int (valor <= 5.9 ):
+        print(f'infelizmente voce foi reprovou com a nota {valor}')
+    else: 
+      print(f'voce foi aprovado com a nota {valor}')
+      cont = input('gostaria de continuar S/N ')
+      if cont.lower() == 's':
+        print('continue')        
+      else:
+        print('Tenha um bom dia' ) 
+        break
